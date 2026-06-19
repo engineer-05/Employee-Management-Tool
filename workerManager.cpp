@@ -245,7 +245,7 @@ int workerManager ::IsExist(int id) // 判断职工是否存在，存在返回�
     int index = -1;
     for (int i = 0; i < this->EmpNum; i++)
     {
-        if (this->EmpArray[i]->id = id)
+        if (this->EmpArray[i]->id == id)
         {
             index = i;
             break;
