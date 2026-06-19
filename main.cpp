@@ -12,7 +12,9 @@ int main(int argc, char const *argv[])
     workerManager wm;
     while (1)
     {
+        // 显示菜单
         wm.Show_Menu();
+        // 选择
         int choice = 0;
         cout << "请输入你的选择:" << endl;
         cin >> choice;

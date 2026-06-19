@@ -16,6 +16,8 @@ private:
 public:
     workerManager();
     ~workerManager();
+    // 判断文件是否为空
+    bool FileIsEnpty;
     // 人数
     int EmpNum;
     // 职工数组指针
@@ -29,8 +31,6 @@ public:
     void Add_Emp();
     // 保存到文件
     void save();
-    // 判断文件是否为空
-    bool FileIsEnpty = false;
     // 获取文件中的人数
     int get_EmpNum();
     // 初始化员工

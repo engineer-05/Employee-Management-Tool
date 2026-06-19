@@ -7,9 +7,10 @@ using namespace std;
 class Worker
 {
 public:
-    virtual void showInfo() = 0;
-    virtual string getDeptName() = 0;
-    int id;
-    string name;
-    int deptId;
+    virtual void showInfo() = 0;    // 显示职工信息
+    virtual string getDeptName() = 0;   // 获取岗位名称
+
+    int id;         // 职工编号
+    string name;    // 姓名
+    int deptId;     // 岗位名称编号
 };

@@ -8,7 +8,6 @@ class Employee : public Worker
 {
 public:
     Employee(int id,string name,int did);
-    ~Employee();
-    virtual void showInfo();
-    virtual string getDeptName();
+    virtual void showInfo();        // 重写父类中的纯虚函数
+    virtual string getDeptName();   // 重写父类中的纯虚函数
 };

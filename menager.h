@@ -8,7 +8,6 @@ class Menager : public Worker
 {
 public:
     Menager(int id,string name,int did);
-    ~Menager();
     virtual void showInfo();
     virtual string getDeptName();
 };
